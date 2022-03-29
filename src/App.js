@@ -14,8 +14,6 @@ import {actionCreators} from "./state";
 
 export default function App() {
   const [interaction, setInteraction] = useState(false);
-  const locationURL = useLocation();
-  const history = useHistory();
 
   const {
     forecastsRA,
@@ -32,7 +30,7 @@ export default function App() {
 
   const routingJSX = (
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/mark-neroda-24-03-2022/">
         <>
           <SearchBar interaction={interaction}
                      setInteraction={() => {
@@ -44,7 +42,7 @@ export default function App() {
           />
         </>
       </Route>
-      <Route exact path="/favorites">
+      <Route exact path="/mark-neroda-24-03-2022/favorites">
         <Favorites/>
       </Route>
     </Switch>
@@ -53,14 +51,7 @@ export default function App() {
   return (
     <div className="App">
       <ToastContainer position="bottom-center" autoClose={2000}/>
-      <Header homepageToggle={() => {
-          if (locationURL.pathname === '/') {
-            history.push('/favorites');
-          } else {
-            history.push('/');
-          }
-        }}
-      />
+      <Header/>
       <div className="main-container">
         {routingJSX}
       </div>

@@ -25,16 +25,18 @@ export default function Header() {
   const history = useHistory();
 
   const navigationJSX = (
-    location.pathname === '/' ? (
-      <BookmarkSVG className="icon nav"
+    location.pathname === '/mark-neroda-24-03-2022/' ? (
+
+      <HomepageSVG className="icon nav"
                    onClick={() => {
-                     history.push('/favorites');
+                     history.push('/mark-neroda-24-03-2022/favorites');
                    }}
       />
     ) : (
-      <HomepageSVG className="icon nav"
+      <BookmarkSVG className="icon nav"
                    onClick={() => {
-                     history.push('/');
+                     console.log('working')
+                     history.push('/mark-neroda-24-03-2022/');
                    }}
       />
     )
