@@ -7,7 +7,7 @@ import Favorites from "./components/Favorites";
 import './App.css';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {Route, Switch, useHistory, useLocation} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import {bindActionCreators} from "redux";
 import {actionCreators} from "./state";
