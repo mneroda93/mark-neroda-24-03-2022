@@ -1,5 +1,5 @@
-const API_KEY = '3mvwBNeQmvqlrLUPDb4tuOsH9TVJGq3U';
-const BASE_URL = 'http://dataservice.accuweather.com/';
+const API_KEY = 'NPjy1z3g1mT4qcjFpDjlKa3b4xFOOB8y';
+const BASE_URL = 'https://dataservice.accuweather.com/';
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
 
 const getGeoLocation = async (coords) => {
