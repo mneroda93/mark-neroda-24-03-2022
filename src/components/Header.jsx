@@ -35,7 +35,6 @@ export default function Header() {
     ) : (
       <BookmarkSVG className="icon nav"
                    onClick={() => {
-                     console.log('working')
                      history.push('/mark-neroda-24-03-2022/');
                    }}
       />

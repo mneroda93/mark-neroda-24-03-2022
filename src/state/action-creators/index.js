@@ -1,4 +1,4 @@
-const API_KEY = 'NPjy1z3g1mT4qcjFpDjlKa3b4xFOOB8y';
+const API_KEY = 'NgkpVd3QJrtNBr73zFrGqLuIYokAiCts';
 const BASE_URL = 'https://dataservice.accuweather.com/';
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
 
