@@ -33,23 +33,21 @@
 @media (max-width: 1200px) {
 	.favorites {
 		align-items: center;
-		flex-direction: column;
 	}
 
 	.card, .favorite-card {
 
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-		margin: 3vw;
+		box-shadow: none;
+		margin: 2svw;
 	}
 
 	.favorite-card {
-		width: 40vw;
-		height: 40vw;
+		width: 15vw ;
+		height: 15vw;
 	}
 
 	.favorite-card span {
 		font-size: .8rem;
 
 	}
-
 }
