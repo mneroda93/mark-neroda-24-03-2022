@@ -1,0 +1,88 @@
+import p1 from '../assets/weather icons/1.png';
+import p2 from '../assets/weather icons/2.png';
+import p3 from '../assets/weather icons/3.png';
+import p4 from '../assets/weather icons/4.png';
+import p5 from '../assets/weather icons/5.png';
+import p6 from '../assets/weather icons/6.png';
+import p7 from '../assets/weather icons/7.png';
+import p8 from '../assets/weather icons/8.png';
+import p11 from '../assets/weather icons/11.png';
+import p12 from '../assets/weather icons/12.png';
+import p13 from '../assets/weather icons/13.png';
+import p14 from '../assets/weather icons/14.png';
+import p15 from '../assets/weather icons/15.png';
+import p16 from '../assets/weather icons/16.png';
+import p17 from '../assets/weather icons/17.png';
+import p18 from '../assets/weather icons/18.png';
+import p19 from '../assets/weather icons/19.png';
+import p20 from '../assets/weather icons/20.png';
+import p21 from '../assets/weather icons/21.png';
+import p22 from '../assets/weather icons/22.png';
+import p23 from '../assets/weather icons/23.png';
+import p24 from '../assets/weather icons/24.png';
+import p25 from '../assets/weather icons/25.png';
+import p26 from '../assets/weather icons/26.png';
+import p29 from '../assets/weather icons/29.png';
+import p30 from '../assets/weather icons/30.png';
+import p31 from '../assets/weather icons/31.png';
+import p32 from '../assets/weather icons/32.png';
+import p33 from '../assets/weather icons/33.png';
+import p34 from '../assets/weather icons/34.png';
+import p35 from '../assets/weather icons/35.png';
+import p36 from '../assets/weather icons/36.png';
+import p37 from '../assets/weather icons/37.png';
+import p38 from '../assets/weather icons/38.png';
+import p39 from '../assets/weather icons/39.png';
+import p40 from '../assets/weather icons/40.png';
+import p41 from '../assets/weather icons/41.png';
+import p42 from '../assets/weather icons/42.png';
+import p43 from '../assets/weather icons/43.png';
+import p44 from '../assets/weather icons/44.png';
+
+export function getImage(icon) {
+
+  switch(icon) {
+    case 1: return p1;
+    case 2: return p2;
+    case 3: return p3;
+    case 4: return p4;
+    case 5: return p5;
+    case 6: return p6;
+    case 7: return p7;
+    case 8: return p8;
+    case 11: return p11;
+    case 12: return p12;
+    case 13: return p13;
+    case 14: return p14;
+    case 15: return p15;
+    case 16: return p16;
+    case 17: return p17;
+    case 18: return p18;
+    case 19: return p19;
+    case 20: return p20;
+    case 21: return p21;
+    case 22: return p22;
+    case 23: return p23;
+    case 24: return p24;
+    case 25: return p25;
+    case 26: return p26;
+    case 29: return p29;
+    case 30: return p30;
+    case 31: return p31;
+    case 32: return p32;
+    case 33: return p33;
+    case 34: return p34;
+    case 35: return p35;
+    case 36: return p36;
+    case 37: return p37;
+    case 38: return p38;
+    case 39: return p39;
+    case 40: return p40;
+    case 41: return p41;
+    case 42: return p42;
+    case 43: return p43;
+    case 44: return p44;
+    default: return p1;
+  }
+
+}

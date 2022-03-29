@@ -1,0 +1,135 @@
+.weather-display {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	flex: 8;
+	width: 100vw;
+	background-color: rgba(128, 128, 128, 0.1);
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	background-image: url("../assets/white-texture.png");
+	transition: .5s all;
+}
+
+.section-1 {
+	display: flex;
+	flex: 1;
+	width: 100vw;
+	justify-content: center;
+	align-items: end;
+}
+
+.section-1-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-2 {
+	display: flex;
+	flex: 2;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100vw;
+}
+
+.location {
+	font-size: 1rem;
+}
+
+.button-12 {
+	width: 150px;
+	transition: .3s all;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6px 14px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+	border-radius: 6px;
+	border: none;
+	background: #6E6D70;
+	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+	color: #DFDEDF;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.button-12:hover {
+	background-color: #3e3e41;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(2px);
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1vw;
+	border-radius: 20px;
+	width: 10vw;
+	height: 10vw;
+}
+
+@media (max-width: 1200px) {
+	.card {
+		box-shadow: none;
+		font-size: .8rem;
+		background-image: none !important;
+	}
+}
+
+@media (max-width: 800px) {
+
+	.section-1 {
+		align-items: center;
+	}
+
+	.section-2 {
+		flex: 1;
+		align-items: baseline;
+		vertical-align: middle;
+	}
+
+	.card {
+		background-color: transparent !important;
+		box-shadow: none;
+		font-size: .8rem;
+		background-image: none !important;
+		display: flex;
+	}
+}
+
+.day {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.tilde {
+	font-size: .8rem;
+
+}
+
+.degrees {
+	margin-top: .2vw;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.square {
+	transition: .5s all;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+.fav-button {
+	margin: 0 1vw;
+}
+
+
+

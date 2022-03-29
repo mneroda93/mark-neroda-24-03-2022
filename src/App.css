@@ -1,0 +1,84 @@
+
+* {
+	user-select: none;
+	box-sizing: border-box;
+	font-family: Roboto-Light, serif;
+	text-shadow: .08rem .08rem rgba(0, 0, 0, .15);
+}
+
+body {
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: local('Roboto-Light'), url(./assets/fonts/Roboto-Light.ttf) format('truetype');
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	background: transparent;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	flex: 8;
+}
+
+.search-bar-container {
+	display: flex;
+	flex-direction: column;
+	flex: 3;
+	width: 100%;
+	justify-content: start;
+	align-items: center;
+}
+
+.favorites {
+	display: flex;
+	flex: 8;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.todays-forecast {
+	display: flex;
+	flex: 2;
+	background-color: rgba(255, 255, 255, 0.52);
+	justify-content: center;
+	align-items: center;
+}
+
+.tag {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-favorite, .remove-favorite {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 800px) {
+	.header {
+		flex: 2;
+	}
+
+}
+
+
+
+
+

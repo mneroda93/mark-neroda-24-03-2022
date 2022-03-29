@@ -1,0 +1,84 @@
+.search-bar-container {
+	display: flex;
+	flex: 5;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+	background-blend-mode: multiply,multiply;
+}
+
+.search-bar {
+	top: 10vh;
+	position: relative;
+	transition: .5s all;
+	width: 350px;
+	height: 50px;
+	line-height: 35px;
+	border: none;
+	border-radius: 5px;
+	padding-left: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	font-size: 1rem;
+}
+
+.search-bar:focus {
+	outline: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.picker {
+	position: relative;
+	top: 10vh;
+	background-color: transparent;
+	width: 500px;
+	line-height: 30px;
+	font-size: 1rem;
+	height: auto;
+	max-height: 15vh;
+	overflow-y: scroll;
+}
+
+.picker p {
+	padding-left: 20px;
+	border-radius: 5px;
+	width: 350px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: .2rem auto;
+}
+
+.picker p:hover {
+	transition: .3s all;
+	background-color: #FFFFFF26;
+	color: white;
+}
+
+@media (max-width: 800px) {
+	.search-bar {
+		top: 5vh;
+		width: 70vw;
+		height: 7vh;
+	}
+
+	.picker {
+		top: 5vh;
+		background-color: transparent;
+		width: 70vw;
+		line-height: 30px;
+		font-size: 1rem;
+		height: auto;
+		max-height: 15vh;
+		overflow-y: scroll;
+	}
+
+	.picker p {
+		padding-left: 20px;
+		height: 4vh;
+		line-height: 4vh;
+		border-radius: 5px;
+		font-size: .8rem;
+		width: 80vw;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		background-color: rgba(255, 255, 255, 0.5);
+		margin: .2rem auto;
+	}
+}
+
