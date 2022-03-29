@@ -1,6 +1,6 @@
 import '../styles/Header.css';
-import {ReactComponent as HomepageSVG} from "../assets/svg/home.svg";
-import {ReactComponent as BookmarkSVG} from "../assets/svg/bookmark.svg";
+import {ReactComponent as HomepageSVG} from "../assets/svg/bookmark.svg";
+import {ReactComponent as BookmarkSVG} from "../assets/svg/home.svg";
 import {ReactComponent as LightSVG} from "../assets/svg/light.svg";
 import {ReactComponent as DarkSVG} from "../assets/svg/dark.svg";
 import {ReactComponent as WeatherSVG} from "../assets/svg/weather.svg";
@@ -33,6 +33,7 @@ export default function Header() {
                    }}
       />
     ) : (
+
       <BookmarkSVG className="icon nav"
                    onClick={() => {
                      history.push('/mark-neroda-24-03-2022/');
