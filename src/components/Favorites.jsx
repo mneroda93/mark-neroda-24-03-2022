@@ -21,21 +21,19 @@ export default function Favorites() {
   const AIO = useSelector((state) => state.AIO);
 
   const tile = theme ? "rgba(0,0,0,0.8)" : "rgba(255,255,255,0.8)";
-  const fontColor = theme? "white" : "black";
+  const fontColor = theme ? "white" : "black";
 
   return (
     <div className="favorites">
       {
         favorites?.map((city, i) => {
           return (
-            <div key={i} className="card favorite-card" style={{backgroundColor: tile, color:fontColor}}
+            <div key={i} className="card favorite-card" style={{backgroundColor: tile, color: fontColor}}
                  onClick={() => {
-                   if (AIO.key === city.key) {
-                     history.push('/');
-                   } else {
+                   if (AIO.key !== city.key) {
                      forecastsRA(city);
-                     history.push('/');
                    }
+                   history.push('/');
                  }}
             >
               <span>{city.city}</span>
