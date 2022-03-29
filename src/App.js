@@ -50,12 +50,6 @@ export default function App() {
     </Switch>
   );
 
-  useEffect(() => {
-    if(locationURL.pathname !== '/') {
-      history.push('/');
-    }
-  },[]);
-
   return (
     <div className="App">
       <ToastContainer position="bottom-center" autoClose={2000}/>
