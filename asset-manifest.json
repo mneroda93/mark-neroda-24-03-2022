@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mark-neroda-24-03-2022/static/css/main.cf54ed91.css",
+    "main.js": "/mark-neroda-24-03-2022/static/js/main.7ec1b171.js",
+    "static/media/Roboto-Light.ttf": "/mark-neroda-24-03-2022/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "static/media/white-texture.png": "/mark-neroda-24-03-2022/static/media/white-texture.e16502a8634dba19877f.png",
+    "static/media/17.png": "/mark-neroda-24-03-2022/static/media/17.4b8d4543699af9743509.png",
+    "static/media/41.png": "/mark-neroda-24-03-2022/static/media/41.da8960711b2a7bdd80c0.png",
+    "static/media/16.png": "/mark-neroda-24-03-2022/static/media/16.02f6796a4b217cbdd262.png",
+    "static/media/15.png": "/mark-neroda-24-03-2022/static/media/15.9aac7942a26db293440b.png",
+    "static/media/weather.svg": "/mark-neroda-24-03-2022/static/media/weather.949e275aaf232d817966fc4526968cf0.svg",
+    "static/media/light.svg": "/mark-neroda-24-03-2022/static/media/light.0648773a728f1e2e53789c865adda6e0.svg",
+    "static/media/dark.svg": "/mark-neroda-24-03-2022/static/media/dark.4946e6c2fac59dffb71d87c56a6189f4.svg",
+    "static/media/bookmark.svg": "/mark-neroda-24-03-2022/static/media/bookmark.aa2f6f12377fd089b9ae772ac2fb61cd.svg",
+    "static/media/centigrade.svg": "/mark-neroda-24-03-2022/static/media/centigrade.3cbc92f6eb96c81786b745f79cb7b8e9.svg",
+    "static/media/home.svg": "/mark-neroda-24-03-2022/static/media/home.c0fea914a04a3fa3d38fdb7dd5b885e7.svg",
+    "index.html": "/mark-neroda-24-03-2022/index.html",
+    "static/media/fahrenheit.svg": "/mark-neroda-24-03-2022/static/media/fahrenheit.c65987229c3e36b5e65d6f78389f0e2e.svg",
+    "static/media/approximation.svg": "/mark-neroda-24-03-2022/static/media/approximation.1a39a8bd1b06ac18a506ccdd4dfb3b49.svg",
+    "main.cf54ed91.css.map": "/mark-neroda-24-03-2022/static/css/main.cf54ed91.css.map",
+    "main.7ec1b171.js.map": "/mark-neroda-24-03-2022/static/js/main.7ec1b171.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf54ed91.css",
+    "static/js/main.7ec1b171.js"
+  ]
+}
