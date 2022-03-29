@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mark-neroda-24-03-2022/static/css/main.4904c4b1.css",
+    "main.css": "/mark-neroda-24-03-2022/static/css/main.648ff123.css",
     "main.js": "/mark-neroda-24-03-2022/static/js/main.89b421a1.js",
     "static/media/Roboto-Light.ttf": "/mark-neroda-24-03-2022/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
     "static/media/white-texture.png": "/mark-neroda-24-03-2022/static/media/white-texture.e16502a8634dba19877f.png",
@@ -17,11 +17,11 @@
     "index.html": "/mark-neroda-24-03-2022/index.html",
     "static/media/fahrenheit.svg": "/mark-neroda-24-03-2022/static/media/fahrenheit.c65987229c3e36b5e65d6f78389f0e2e.svg",
     "static/media/approximation.svg": "/mark-neroda-24-03-2022/static/media/approximation.1a39a8bd1b06ac18a506ccdd4dfb3b49.svg",
-    "main.4904c4b1.css.map": "/mark-neroda-24-03-2022/static/css/main.4904c4b1.css.map",
+    "main.648ff123.css.map": "/mark-neroda-24-03-2022/static/css/main.648ff123.css.map",
     "main.89b421a1.js.map": "/mark-neroda-24-03-2022/static/js/main.89b421a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.4904c4b1.css",
+    "static/css/main.648ff123.css",
     "static/js/main.89b421a1.js"
   ]
 }
