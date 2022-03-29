@@ -15,7 +15,7 @@ const getGeoLocation = async (coords) => {
 }
 
 const getCurrentConditions = async (cityObj) => {
-  return await fetch(`http://dataservice.accuweather.com/currentconditions/v1/${cityObj.key}?apikey=${API_KEY}`)
+  return await fetch(`${BASE_URL}currentconditions/v1/${cityObj.key}?apikey=${API_KEY}`)
     .then((resp) => resp.json())
     .then((data) => {
       cityObj.temperatureToday = Math.floor(data[0].Temperature.Metric.Value);
@@ -28,7 +28,7 @@ const getCurrentConditions = async (cityObj) => {
 }
 
 const getFiveDayForecast = async (cityObj) => {
-  return await fetch(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityObj.key}?apikey=${API_KEY}&metric=true`)
+  return await fetch(`${BASE_URL}forecasts/v1/daily/5day/${cityObj.key}?apikey=${API_KEY}&metric=true`)
     .then((resp) => resp.json())
     .then(async (forecasts) => {
       const arr = [];
