@@ -33,7 +33,7 @@ export default function Favorites() {
                    if (AIO.key !== city.key) {
                      forecastsRA(city);
                    }
-                   history.push('/');
+                   history.push('/mark-neroda-24-03-2022/');
                  }}
             >
               <span>{city.city}</span>
